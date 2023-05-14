@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recognize Face</title>
+</head>
+<body>
+    <h1>Recognize Face</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Recognize</button>
+    </form>
+</body>
+</html>

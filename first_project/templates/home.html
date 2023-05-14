@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+</head>
+<body>
+	<h1>Welcome to Face Recognition System</h1>
+	<p>
+		This system allows you to add known faces and recognize unknown faces using facial recognition technology.
+	</p>
+	<ul>
+		<li><a href="{% url 'add_face' %}">Add Face</a></li>
+		<li><a href="{% url 'recognize' %}">Recognize Face</a></li>
+	</ul>
+</body>
+</html>
